@@ -7,4 +7,25 @@ body {
     background-image: url("../images/nasa.jpg");
     background-size: 100% 100%;
     text-align: center;
+ 
+}
+
+
+
+.nav__spacing a {
+
+    text-decoration: underline;
+    position: relative;
+    align-items: center;
+    margin: auto;
+    font-weight: 650;
+    font-size:xx-large;
+
+    
+}
+
+.nav__text h1 {
+    font-weight: 500;
+
+
 }

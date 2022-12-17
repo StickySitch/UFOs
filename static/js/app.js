@@ -66,7 +66,7 @@ function updateFilters() {
     Object.keys(filters).forEach((item) => {
       let userInput = d3.select("#"+item).property("value");
       if (userInput){
-        updateFilters = updateFilters.filter(row=>row[item] === userInput)
+        updateFilters = updateFilters.filter(row=>row[item] === userInput.toLowerCase())
       };
     });
     
