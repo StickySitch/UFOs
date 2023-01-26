@@ -15,13 +15,17 @@
 </head>
 <body class="bg-dark">
     <div class="wrapper">
-     
+        <!--"Navbar" STARTS Here-->
         <div class="jumbotron nav__spacing nav__text">
             <nav class="navbar navbar-dark">
                 <a class="navbar-brand" href="index.html">UFO Sightings</a>
             </nav>
             <h1 class="display-4">The Truth Is Out There</h1>
         </div>
+        <!--"Navbar" ENDS Here-->
+
+
+        <!--Header STARTS Here-->
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
@@ -37,17 +41,21 @@
                 </div>
             </div>
         </div>
+        <!--Header ENDS Here-->
+
+        <!--Table/Filter Container STARTS Here-->
         <div class="container-fluid">
             <div class="row">
+                <!--Filter STARTS Here-->
               <div class="col-md-3">
-                <form class="bg-dark">
+                <form class="bg-dark filter__search-all">
                     <p>
                         Filter Search
                     </p>
                 
-                <ul class="bg-dark list-group">
+                <ul class="bg-dark list-group filter__search">
                     <li class="bg-dark list-group-item">
-                        <label for="date">Enter Date</label>
+                        <label for="date">Enter Date</label><br>
                         <input type="text" placeholder="1/10/2010" id="datetime" />
                     </li>
 
@@ -73,6 +81,9 @@
                 </ul>
                 </form>
               </div>
+              <!--Filter ENDS Here-->
+
+              <!--Table STARTS Here-->
             <div class="col-md-9">
                 <table class="table table-striped">
                     <thead>
@@ -84,13 +95,16 @@
                             <th>Shape</th>
                             <th>Duration</th>
                             <th>Comments</th>
+                 
                         </tr>
                     </thead>
                     <tbody></tbody>
                 </table>
               </div>
             </div>
+            <!--Table ENDS Here-->
           </div>
+          <!--Table/Filter Container ENDS Here-->
     </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
 <script src="static/js/data.js"></script>

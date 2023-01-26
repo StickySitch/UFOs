@@ -29,3 +29,20 @@ body {
 
 
 }
+
+.filter__search-all {
+    margin-left: 1rem;
+}
+
+
+.filter__search-all p {
+    text-decoration: underline;
+    font-size: large;
+    font-weight: 650;
+
+}
+
+.filter__search li{
+  max-width: fit-content;
+}
+
